@@ -273,45 +273,41 @@ span{
 .project-heading{
    margin-top: 25px;
 }
-
-.project-lists
-{
-    width: 100%;
-   height:380px;
+.project-lists{
    display: flex;
-   margin-top: 60px;
-   background-color: rgba(245, 222, 179, 0.184);
-   justify-content: space-evenly; 
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 10px;
 }
-.project-name span{
-   font-size: 25px;
-   font-weight: 700;
+.project-container{
+   width: 20%;
+   height: 380px;
+   background-color: white, wheat;
+   margin: 40px;
+   border-radius: 10px;
+   box-shadow: 2px 2px 7px black;
 }
-.project-name .About-project{
-   font-weight: 600;
-   font-size: 18px;
-   padding-top: 8px;
+.image img{
+   width: 100%;
+   border-top-right-radius: 10px; 
+   border-top-left-radius: 10px; 
 }
-.project-description{
-   width: 200px;
-   height: 5px;
-   font-size: 16px;
-   font-weight: 500;
-   padding-top: 10px;
-}
-.project-image img{
-   border-top-left-radius: 20px;
-   border-top-right-radius: 20px;
 
-}
-.project-name{
-   width: 238px;
-   height: 161px;
+.project-name h1{
    padding-left: 10px;
-   background-color:white;
-   border-bottom-right-radius: 20px;
-   border-bottom-left-radius: 20px;
+   padding-top: 5px;
+   color: rgb(160, 117, 38);
 }
+.project-description p{
+   padding-left: 10px;
+   padding-top: 10px;
+   font-size: 17px;
+}
+.project-description h3{
+   padding-left: 10px;
+   padding-top: 10px;
+  
+} 
 .grid-container{
    height: 278px;
    width: 870px;
