@@ -35,10 +35,7 @@ a:hover{
    text-decoration: underline;
     color: black;
 }
-/* #resume{
-    border-radius: 5px;
-    
-} */
+
 .logo{
    background-color: #172937;
    color: white;
@@ -52,6 +49,7 @@ a:hover{
 
 .main-content{
   display: flex;
+  width: 1513px;
   justify-content: center;
   background-color: #172937;
 }
@@ -294,7 +292,7 @@ span{
 .project-container{
    width: 20%;
    height: 380px;
-   background-color: white, wheat;
+   background-color: white;
    margin: 40px;
    border-radius: 10px;
    box-shadow: 2px 2px 7px black;
