@@ -10,8 +10,6 @@
     display: flex;
     justify-content: flex-end;
     gap: 80px;
-    /* height: 515px; */
-    /* margin-bottom: 10px; */
     width: 1513px;
     background-color: #172937;
     border: 4px solid #172937;
@@ -32,7 +30,6 @@ a:hover{
    text-decoration: underline;
 }
 #resume{
-    /* border: 2px solid blue; */
     border-radius: 5px;
     
 }
@@ -46,21 +43,30 @@ a:hover{
    display: flex;
    gap: 10px;
 }
+
+.main-content{
+  display: flex;
+  justify-content: center;
+  background-color: #172937;
+}
 .content{
-    padding-left: 101px;
+    padding-left: 71px;
     padding-top: 120px;
-    /* display: flex; */
     width: 1513px;
     height: 55vh;
-    line-height: 70px;
     font-size: 40px;
-    letter-spacing: 0%;
-    background-color: #172937;
     color: aliceblue;
-    justify-content: center;
-    /* flex-direction: column; */
    
 }
+
+.main-content .images{
+   width: 399px;
+   background-color: white;
+   height: 304px;
+   border-radius: 50%;
+   margin:55px 205px 55px 55px;
+}
+
 span{
    color: #FF8153;
 }
