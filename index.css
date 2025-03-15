@@ -9,10 +9,15 @@
   .navlinks{
     display: flex;
     justify-content: flex-end;
-    gap: 80px;
+    gap: 60px;
     width: 1513px;
     background-color: #172937;
     border: 4px solid #172937;
+}
+
+.navlinks #resume1{
+   border: 1px solid #FF8153;
+   border-radius: 5px;
 }
 .icon{
    background-color: white;
@@ -28,6 +33,7 @@ a{
 }
 a:hover{
    text-decoration: underline;
+    color: black;
 }
 #resume{
     border-radius: 5px;
